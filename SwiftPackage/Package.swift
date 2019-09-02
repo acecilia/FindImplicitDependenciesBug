@@ -23,9 +23,6 @@ let package = Package(
             name: "SwiftPackage",
             dependencies: [],
             linkerSettings: [.linkedFramework("XcodeProjectDependency")]
-        ),
-        .testTarget(
-            name: "SwiftPackageTests",
-            dependencies: ["SwiftPackage"]),
+        )
     ]
 )
